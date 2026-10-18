@@ -29,3 +29,17 @@ This is all my note for code study
 - `mv` 移动或重命名
 - `rm` 删除文件 ***注意！rm通常不进回收站，删除前先确认路径和文件名！！！***
 - `cat/less` 直接查看/分页查看
+
+- **Shell的四种常用组合**
+- 1.变量 `name="RM"`  保存一个值，再通过变量引用它
+         `echo "$name"`
+- 2.重定向 `echo"hello" > hello.txt`   `>`为覆盖写入；‘>>’ 为追加到文件末尾
+- 3.管道 `ls -la | grep txt` 将输出交给下一个程序
+- 4.条件连接 `mkdir -p demo && cd demo` 前一条成功后，再执行下一条
+
+- **陌生命令的帮助入口**
+- `ls --help` 快速查看选项和用法
+- `man ls` 打开手册，按q退出
+- `tab`  补全命令或路径
+- `↑ / ↓` 调出历史命令
+
