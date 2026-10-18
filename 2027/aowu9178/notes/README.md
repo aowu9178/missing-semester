@@ -43,3 +43,26 @@ This is all my note for code study
 - `tab`  补全命令或路径
 - `↑ / ↓` 调出历史命令
 
+- **vim的基本使用**
+- `:w` 保存
+- `:q` 退出
+- `:wq` 保存退出
+- `:q!` 放弃修改并退出
+- `h j k l` 左/下/上/右
+- `dd` 删除当前行
+- `yy/p` 复制当前行
+- `u` 撤销
+- `/word` 搜索word
+
+### 3.Git && GitHub
+-**Git 常用命令：获取与查看**
+- `git clone <仓库地址>` 下载仓库及提交历史
+- `git status` 查看当前分支和文件状态
+- `git diff` 查看尚未暂存的修改
+- `git log --oneline` 用简短格式查看提交历史
+- `git switch -c feature/hello` 创建并切换到功能分支
+- `add hello.txt` 暂存指定文件
+- `commit -m "Add greeting"` 记录一次本地提交
+- `push -u origin feature/hello` 推送并建立跟随关系
+- `switch main`切回主分支
+- `pull` 获取并整合当前分支的远程更新
