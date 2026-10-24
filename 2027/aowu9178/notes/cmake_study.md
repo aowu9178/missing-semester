@@ -1,9 +1,9 @@
 # cmake、catkin
 一些有用的网站链接：
-    :---`1.https://zhuanlan.zhihu.com/p/476697014`
-    :---`2.https://www.runoob.com/cmake/cmake-basic.html`
-    :---`3.https://www.mihaileric.com/The-Emperor-Has-No-Clothes/`
-    :---`4.https://wiki.ros.org/catkin/Tutorials`
+1. [知乎：CMake 相关](https://zhuanlan.zhihu.com/p/476697014)
+2. [菜鸟教程：CMake 基础](https://www.runoob.com/cmake/cmake-basic.html)
+3. [The Emperor Has No Clothes](https://www.mihaileric.com/The-Emperor-Has-No-Clothes/)
+4. [ROS catkin Tutorials](https://wiki.ros.org/catkin/Tutorials)
 ## 关于cmake,makefile和catkin关系：
     Makefile：告诉 make 每一步怎么编译、链接。
     make：照着 Makefile 干活。
